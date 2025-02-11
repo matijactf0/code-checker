@@ -1,0 +1,114 @@
+/* Custom styles to enhance the design */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .backdrop-blur-lg {
+    backdrop-filter: blur(20px);
+  }
+  
+  #editor {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+  }
+  
+  /* Custom scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Tooltip styles */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Code highlight */
+  pre {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+  }
+  
+  code {
+    font-family: "Fira Code", monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  /* Glassmorphism effect */
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  /* Neon text effect */
+  .neon {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0
+      50px #ff00de, 0 0 75px #ff00de;
+  }
+  
+  /* Hover effect for cards */
+  .hover-lift {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-5px);
+  }
+  
+  
