@@ -1,7 +1,5 @@
 # 🚀 Matija's Advanced Code Checker 🛠️
 
-![Code Checker Preview]([https://imgur.com/a/mKCSeT8](https://cdn.discordapp.com/attachments/1187389819807092868/1338672459599319161/image.png?ex=67abef61&is=67aa9de1&hm=68a2b98470b2999ae6df920fd84d8e573c8b8e550ba8490910bf7fe3e0de0d63&))
-
 ## 🌟 Welcome to the Future of Code Analysis! 🌟
 
 Matija's Advanced Code Checker is a cutting-edge tool designed to elevate your coding experience. Whether you're a seasoned developer or just starting out, our platform offers invaluable insights to enhance your code quality and efficiency.
